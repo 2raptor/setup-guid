@@ -28,7 +28,7 @@ Shell update to ohmyz
 
     ```
     # Path to your oh-my-zsh installation.
-    export ZSH=~/.oh-my-zsh
+    export ZSH=/Users/pkasi/.oh-my-zsh
     plugins=(git)
     source $ZSH/oh-my-zsh.sh
     ZSH_THEME="agnoster"
