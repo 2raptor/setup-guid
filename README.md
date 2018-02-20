@@ -1,4 +1,4 @@
-# setup-guide
+# Setup mac for the 1st time
 
 
 Git setup 1st time
@@ -6,16 +6,27 @@ Git setup 1st time
 1. Setup git https://help.github.com/articles/connecting-to-github-with-ssh/
 1. Git set user/email/default editor - https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 
+Node and NVM
+======
+1. Install latest nodeJS https://nodejs.org/en/download/
+1. Install nvm https://github.com/creationix/nvm/blob/master/README.md
 
 Shell update to ohmyz
 =====================
-1. Install ohmyz http://ohmyz.sh/
+1. Install ohmyz http://ohmyz.sh/   
+   
+   ```$sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 1. Install powerline theme https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme
 1. Install powerline fonts https://github.com/powerline/fonts
-
+    
+    ```$sudo apt-get install fonts-powerline```
 1. Install homebrew https://brew.sh/
-1. Install pip, powerline-status http://powerline.readthedocs.io/en/master/installation/osx.html#
-    Edit ~/.zshrc
+    
+    ```$/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+1. Install pip, powerline-status http://powerline.readthedocs.io/en/master/installation/osx.html# 
+1. Edit ~/.zshrc
+
+    ```
     export TERM=xterm-256color
 
     if [[ -r ~/library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
@@ -40,7 +51,4 @@ Shell update to ohmyz
     python from powerline.vim import setup as powerline_setup
     python powerline_setup()
     python del powerline_setup
-    set rtp+=~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim
-
-1. Install latest nodeJS https://nodejs.org/en/download/
-1. Install nvm https://github.com/creationix/nvm/blob/master/README.md
+    set rtp+=~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim```
