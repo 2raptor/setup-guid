@@ -1,11 +1,15 @@
 # setup-guide
 
 
+Git setup 1st time
+========
+1. Setup git https://help.github.com/articles/connecting-to-github-with-ssh/
+1. Git set user/email/default editor - https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+
 Shell update to ohmyz
 =====================
 1. Install ohmyz http://ohmyz.sh/
-1. Setup git https://help.github.com/articles/connecting-to-github-with-ssh/
-1. Git set user/email/default editor - https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 1. Install powerline theme https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme
 1. Install powerline fonts https://github.com/powerline/fonts
 
