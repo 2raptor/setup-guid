@@ -27,14 +27,15 @@ Shell update to ohmyz
 1. Edit ~/.zshrc
 
     ```
-    export TERM=xterm-256color
-
-    if [[ -r ~/library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
-            source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
-    fi
-
-    Edit ~/.vimrc
-    " Always show statusline
+    # Path to your oh-my-zsh installation.
+    export ZSH=/Users/pkasi/.oh-my-zsh
+    plugins=(git)
+    source $ZSH/oh-my-zsh.sh
+    ZSH_THEME="agnoster"
+    export TERM=xterm-256color```
+    
+ 1. Edit ~/.vimrc
+    ```" Always show statusline
     set laststatus=2
 
     " Use 256 colours (Use this setting only if your terminal supports 256 colours)
@@ -46,9 +47,4 @@ Shell update to ohmyz
     syntax on
     " colorscheme molokai
     set tw=72
-    set ruler
-
-    python from powerline.vim import setup as powerline_setup
-    python powerline_setup()
-    python del powerline_setup
-    set rtp+=~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim```
+    set ruler```
