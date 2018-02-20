@@ -32,7 +32,7 @@ Shell update to ohmyz
     plugins=(git)
     source $ZSH/oh-my-zsh.sh
     ZSH_THEME="agnoster"
-    export TERM=xterm-256color```
+    export TERM=xterm-256color
     
  1. Edit ~/.vimrc
     ```" Always show statusline
@@ -47,4 +47,4 @@ Shell update to ohmyz
     syntax on
     " colorscheme molokai
     set tw=72
-    set ruler```
+    set ruler
